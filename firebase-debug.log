@@ -193,3 +193,9 @@ INFO: Detected non-HTTP/2 connection.
 [debug] [2020-12-01T02:16:09.013Z] >>> [apiv2][body] POST http://localhost:5001/functions/projects/ng-firebase-emulator-test/trigger_multicast {"eventType":"providers/firebase.auth/eventTypes/user.create","data":{"uid":"KprRlDhKg3umqYffidKEjvEZWz25","phoneNumber":"+917566675092","metadata":{"creationTime":"1606788969010","lastSignInTime":"1606788969010"},"customClaims":{},"providerData":[{"providerId":"phone","federatedId":"+917566675092","rawId":"+917566675092"}]}}
 [debug] [2020-12-01T02:16:09.025Z] <<< [apiv2][status] POST http://localhost:5001/functions/projects/ng-firebase-emulator-test/trigger_multicast 200
 [debug] [2020-12-01T02:16:09.025Z] <<< [apiv2][body] POST http://localhost:5001/functions/projects/ng-firebase-emulator-test/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2020-12-01T02:16:26.687Z] Dec 01, 2020 7:46:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 01, 2020 7:46:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-12-01T02:16:26.690Z] Dec 01, 2020 7:46:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 01, 2020 7:46:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}

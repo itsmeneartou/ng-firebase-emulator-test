@@ -15,7 +15,6 @@ export class AppComponent {
     if($event.authResult.user!=null)this.isSignedIn = true;
   }
   constructor(private afAuth:AngularFireAuth){
-    afAuth.signOut();
     afAuth.authState.subscribe(user=>{
       if(user!=null)this.signInStateMessage = "I am signed in currently";
       else this.signInStateMessage = "I am signed out currently."
